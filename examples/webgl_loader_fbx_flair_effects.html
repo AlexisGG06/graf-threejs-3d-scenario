@@ -252,7 +252,8 @@
 
 				if ( mixer ) mixer.update( delta );
 
-				
+			
+
 				renderer.render( scene, camera );
 
 				stats.update();
@@ -292,7 +293,7 @@ function createRain() {
 createRain();
 
 // -------------------------------------
-// Teclado para controlar efectos
+
 // -------------------------------------
 window.addEventListener('keydown', function (event) {
 	switch (event.key.toLowerCase()) {
